@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/hisui", "destination": "/hisui/", "permanent": false },
+    { "source": "/kanto", "destination": "/kanto/", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/hisui/", "destination": "https://pokedex-hisui.vercel.app/hisui/" },
+    { "source": "/hisui/:path+", "destination": "https://pokedex-hisui.vercel.app/hisui/:path+" },
+    { "source": "/kanto/", "destination": "https://pokedex-kanto-iota.vercel.app/kanto/" },
+    { "source": "/kanto/:path+", "destination": "https://pokedex-kanto-iota.vercel.app/kanto/:path+" }
+  ]
+}
