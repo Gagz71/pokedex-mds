@@ -1,7 +1,7 @@
 {
   "name": "Pokédex MDS",
   "short_name": "Pokédex",
-  "description": "Pokédex de fan pour les jeux Pokémon : Hisui, Kanto…",
+  "description": "Pokédex de fan pour les jeux Pokémon : Hisui, Kanto, Galar…",
   "lang": "fr",
   "start_url": "/",
   "scope": "/",

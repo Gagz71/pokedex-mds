@@ -4,10 +4,11 @@ Portail qui regroupe les Pokédex de fan sous une seule adresse :
 
 - `/` : page d'accueil « Choisis ton Pokédex » (ce dépôt, site statique sans étape de construction) ;
 - `/hisui/` : [Pokédex Hisui](https://github.com/Gagz71/pokedex-hisui) (Légendes Pokémon : Arceus) ;
-- `/kanto/` : [Pokédex Kanto](https://github.com/Gagz71/pokedex-kanto) (Pokémon Let's Go, Pikachu !).
+- `/kanto/` : [Pokédex Kanto](https://github.com/Gagz71/pokedex-kanto) (Pokémon Let's Go, Pikachu !) ;
+- `/galar/` : [Pokédex Galar](https://github.com/Gagz71/pokedex-galar) (Pokémon Épée).
 
 Chaque module garde son propre dépôt et son propre déploiement Vercel ; `vercel.json` renvoie
-`/hisui/…` et `/kanto/…` vers eux de façon transparente (même adresse pour le navigateur, donc une
+`/hisui/…`, `/kanto/…` et `/galar/…` vers eux de façon transparente (même adresse pour le navigateur, donc une
 seule connexion Supabase partagée entre les modules).
 
 ## Ajouter un module
